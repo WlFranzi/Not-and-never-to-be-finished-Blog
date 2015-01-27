@@ -1,7 +1,10 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
 <link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
 <script src="//vjs.zencdn.net/4.11/video.js"></script>
-
-
 
   <!-- BigVideo Dependencies -->
 
@@ -10,27 +13,25 @@
     <script src="http://dfcb.github.io/BigVideo.js/bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
     <script src="http://dfcb.github.io/BigVideo.js/bower_components/BigVideo/lib/bigvideo.js"> </script>
 
-<script>
 
-      $(function() {
+  </head>
+
+        <body>
+          <div class="main">
+            <div id="overview" class="box">
+              <h1>BigVideo<span class="dimmed"><small>.</small>js</span></h1>
+              <h2>Simple Ambient Video Example</h2>
+            </div>
+          </div>
+
+          <!-- Demo -->
+          <script>
+          $(function() {
             var BV = new $.BigVideo();
-      BV.init();
-      BV.show('video/RetrospectiveHH.mp4',{ambient:true});
-      });
+            BV.init();
+            BV.show('video/RetrospectiveHH.mp4',{ambient:true});
+          });
+          </script>
 
-
- </script>
-
-
-
-
-
-
-<!--/.Video-Background.Start -->
-<div class="wrapper">
-  <div class="screen" id="screen-1" data-video="video/RetrospectiveHH.mp4">
-    <img src="../../Img/healthy.jpg" class="big-image" />
-
-<!--/.navbar-start -->
-
-        <!--/.Video-Background.End -->
+        </body>
+        </html>
