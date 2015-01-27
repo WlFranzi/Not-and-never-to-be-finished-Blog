@@ -2,3 +2,44 @@
 <p>
 The time is now <=% Time.now %>
 </p>
+
+
+
+
+<link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.11/video.js"></script>
+
+
+
+  <!-- BigVideo Dependencies -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://dfcb.github.io/BigVideo.js/bower_components/jquery-ui/ui/jquery-ui.js"></script>
+    <script src="http://dfcb.github.io/BigVideo.js/bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+    <script src="http://dfcb.github.io/BigVideo.js/bower_components/BigVideo/lib/bigvideo.js"> </script>
+
+<script>
+
+      $(function() {
+            var BV = new $.BigVideo();
+      BV.init();
+      BV.show('video/RetrospectiveHH.mp4',{ambient:true});
+      });
+
+
+ </script>
+
+
+
+
+
+
+<!--/.Video-Background.Start -->
+<div class="wrapper">
+  <div class="screen" id="screen-1" data-video="video/RetrospectiveHH.mp4">
+    <img src="../../Img/healthy.jpg" class="big-image" />
+
+<!--/.navbar-start -->
+   
+        <!--/.Video-Background.End -->
+
