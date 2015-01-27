@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :clients
+
   get 'pages/home'
 
   get 'pages/what'
