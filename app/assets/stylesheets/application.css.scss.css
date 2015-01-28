@@ -1,0 +1,60 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic);
+
+
+/*Main body all pages*/
+
+body {
+        font-family: 'Lato', sans-serif;
+        color: #000000;
+        text-align: center;
+}
+
+body h1{
+    padding-top: 82px;
+}
+
+/*navbar*/
+.navbar {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.form-group a {
+    padding-left: 30px;
+    color: white;
+}
+
+/*footer all pages*/
+.footerhold {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footerhold a {
+    color: black;
+    font-size: 1em;
+    padding-bottom: 2px;
+
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
