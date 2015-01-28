@@ -1,2 +1,38 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<!doctype html>
+<html lang="en">
+<head>
+
+  <link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/4.11/video.js"></script>
+
+  <!-- BigVideo Dependencies -->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="http://dfcb.github.io/BigVideo.js/bower_components/jquery-ui/ui/jquery-ui.js"></script>
+  <script src="http://dfcb.github.io/BigVideo.js/bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+  <script src="http://dfcb.github.io/BigVideo.js/bower_components/BigVideo/lib/bigvideo.js"> </script>
+
+
+</head>
+
+<body>
+
+
+  <div class="main">
+    <div id="overview" class="box">
+      <h1>BigVideo<span class="dimmed"><small>.</small>js</span></h1>
+      <h2>Simple Ambient Video Example</h2>
+    </div>
+  </div>
+
+  <!-- Demo -->
+  <script>
+  $(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('video/RetrospectiveHH.mp4',{ambient:true});
+  });
+  </script>
+
+</body>
+</html>
