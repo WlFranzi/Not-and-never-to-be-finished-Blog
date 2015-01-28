@@ -3,10 +3,9 @@
 <head>
 
 <head>
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
 
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
-<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   
 <%= csrf_meta_tags %>
 
@@ -24,6 +23,8 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
 
 <title>Coaching - Melotos</title>
 
@@ -49,24 +50,19 @@
               <a  href="/pages/home.html">home</a>
             </div>
             <div class="form-group">
+              <a href="/pages/what.html">process</a>
+            </div>
+            <div class="form-group">
               <a href="/pages/about.html">about</a>
             </div>
              <div class="form-group">
               <a href="/pages/blog.html">blog</a>
-            </div>
-
-            </div><!--/.navbar-collapse -->
-            </div>
-            </div>
-            </div>
-            </div>
+             </div>
           </form>
-           </div>
-           </div>
         </div>
-
-
-
+      </div>
+    </div>
+ </head>
 
 
 <body>
@@ -77,8 +73,7 @@
 
     <div class="footerhold">
       <footer>
-        <p class="footer"> &copy; Melotos Inc. </p>
-        <a href="/pages/contact">Impressum</a>
+        <p class="footer"><a href="../pages/contact.html">Impressum</a> &copy; Melotos Inc.</p>
 
     </footer>
   </div> 
