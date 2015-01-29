@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require video
+//= require bigvideo
 //= require_tree .
+
+$(function() {
+  var BV = new $.BigVideo();
+  BV.init();
+  BV.show('video/smoothie.mp4',{ambient:true});
+});
