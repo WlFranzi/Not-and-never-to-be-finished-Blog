@@ -41,18 +41,19 @@ body {
 }
 
 .navbar-inverse .navbar-form {
-  margin-right: 30px;
+  margin-right: 40px;
  }
 
 .form-group a {
   padding-left: 50px;
   text-decoration: none !important; 
   color: white !important;
+  font-size: 20px;
 }
 
 .img {
   padding-bottom: -10px;
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 /*home container*/
@@ -65,10 +66,22 @@ body {
   text-align: left;
 }
 
-.col-md-4 p {
+.col-sm-3 p {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 60px;
+}
+
+.col-sm-3 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.col-sm-3 h2 {
+  color: white;
+  font-size: 60px;
+  margin-top: -65px;
 }
 
 .row {
@@ -80,21 +93,8 @@ a:hover {
 }
 
 .bgimage {
-  background-image: url("carrot.jpg");
+  background-image: url("carrots.jpg");
 }
-
-h1 {
-  color: white;
-  font-size: 55px;
-  font-weight: bold;
-}
-
-h2 {
-  color: white;
-  font-size: 60px;
-  margin-top: -65px;
-}
-
 
 /*contact container*/
 .main {
@@ -132,12 +132,34 @@ h2 {
   font-size: 20px;
 }
 
-
 /*about container*/
 
-.upsideimage {
+.topimage {
   background-image: url("header.jpg");
+  padding-bottom: 120px;
+  margin-top: -82px;
+  background-size: cover;
+}
 
+.topimage a {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.row .about {
+  padding-top: 120px;
+}
+
+.container.about {
+  margin-top: 100px;
+  margin-left: 140px !important;
+}
+
+.col-md-4 {
+  margin-right: 80px;
+  margin-left: 20px;
 }
 
 /*footer all pages*/
