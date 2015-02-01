@@ -6,7 +6,8 @@
     
   <%= csrf_meta_tags %>
 
-<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+
   <title>Coaching - Melotos</title>
 
 </head>
@@ -17,21 +18,23 @@
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container">
         <div class="navbar-header">
-        <a href="pages/home.html"> <img src="../../img/melotos-01.png" style="width:183px;height:60px"></a>
+        <a href="pages/home.html"> <img src="../../img/melotos.png" style="width:183px;height:60px"></a>
           </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
-              <a href="/pages/home.html">Home</a>
+            <%= link_to 'Home', pages_home_path %>
             </div>
             <div class="form-group">
-              <a href="/pages/what.html">Approach</a>
+            <%= link_to 'Approach', pages_what_path %>
             </div>
             <div class="form-group">
-              <a href="/pages/about.html">About</a>
+            <%= link_to 'About', pages_about_path %>
             </div>
             <div class="form-group">
-              <a href="/pages/blog.html">Blog</a>
+            <%= link_to 'Blog', pages_blog_path %>
+            <div class="form-group">
+            <%= link_to 'Contact', pages_contact_path %>
             </div>
           </form>
         </div>

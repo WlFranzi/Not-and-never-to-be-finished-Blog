@@ -13,16 +13,13 @@
  *= require_self
  */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic);
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "bigvideo";
 @import "video-js.min";
 
 body {
-  font-family: 'Nunito', sans-serif;
-  color: #000;
+  font-family: 'Cantata One', serif;  color: #000;
   text-align: center;
   padding-top: 82px;        
 }
@@ -80,8 +77,9 @@ body {
 
 .col-sm-3 h2 {
   color: white;
-  font-size: 60px;
+  font-size: 70px;
   margin-top: -65px;
+  font-weight: bold;
 }
 
 .row {
@@ -93,52 +91,21 @@ a:hover {
 }
 
 .bgimage {
-  background-image: url("carrots.jpg");
+  background-image: url("../../img/carrots.jpg");
+  margin-top: -83px;
+  padding-bottom: 200px;
+  padding-top: 60px;
 }
 
-/*contact container*/
-.main {
-  position:relative;
-  min-width: 300px;
-  margin-top: -100px;
-  padding-top: 20px;
-  padding-bottom: 70px;
-
-}
-
-.box {
-  background: rgba(0,0,0,.4);
-  padding: 100px;
-  width: 800px;
-  margin: auto;
-  margin-top: 100px;
-  color: #fff;
-}
-
-.box a {
-  color: inherit;
-  font-size: 18px;
-}
-
-.box h1 {
-  margin-top: -40px;
-}
-
-.carton {
-  background: rgba(0,0,0,.7);
-}
-
-.carton a {
-  font-size: 20px;
-}
 
 /*about container*/
 
 .topimage {
   background-image: url("header.jpg");
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   margin-top: -82px;
   background-size: cover;
+  padding-top: 200px;
 }
 
 .topimage a {
@@ -152,8 +119,13 @@ a:hover {
   padding-top: 120px;
 }
 
+.carton {
+  padding-right: 140px;
+  font-style: italic;
+}
+
 .container.about {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 140px !important;
 }
 

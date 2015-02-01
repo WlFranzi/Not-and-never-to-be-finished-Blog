@@ -17,8 +17,9 @@
 //= require bigvideo
 //= require_tree .
 
-$(function() {
-  var BV = new $.BigVideo();
-  BV.init();
-  BV.show('video/smoothie.mp4',{ambient:true});
-});
+<script>
+    $(function() {
+		// and kick off
+        $('#coverflow').coverflow();
+    });
+</script>
