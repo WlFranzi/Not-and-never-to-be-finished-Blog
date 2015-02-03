@@ -1,1 +1,25 @@
-<a> newsletter </a>
+<div class="contact">
+<h1 >  any questions? get in touch: </h1>
+</div>
+
+<%= flash[:notice] %>
+
+<%= form_tag("/pages/thank_you") do %>
+<div class="row">
+	<div class="contact col-md-4">
+	<div class="form-group">
+			<%= label_tag :name, "Name" %>
+	    <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name" %>
+		</div>		
+		<div class="form-group">
+			<%= label_tag :email, "Email Address" %>
+			<%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
+		</div>
+		<div class="form-group">
+			<%= label_tag :message, "Message" %>
+			<%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
+		</div>		
+	</div>
+</div> 
+<%= submit_tag "Send" %>   
+<% end %>

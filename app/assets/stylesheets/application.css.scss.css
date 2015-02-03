@@ -24,12 +24,18 @@ body {
   padding-top: 82px;        
 }
 
+
+.navbar-fixed-top {
+  padding-top: 5px;
+  background-color: #7fffd4;
+}
+
 /*navbar*/
 .navbar {
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.5;
   color: white !important;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -105,7 +111,7 @@ a:hover {
   padding-bottom: 80px;
   margin-top: -82px;
   background-size: cover;
-  padding-top: 200px;
+  padding-top: 140px;
 }
 
 .topimage a {
@@ -130,10 +136,21 @@ a:hover {
 }
 
 .col-md-4 {
-  margin-right: 80px;
-  margin-left: 20px;
+  margin-right: 100px;
+  margin-left: 40px;
 }
 
+
+.contact h1 {
+margin-top: -30px;
+margin-bottom: 10px;
+}
+
+.contact.col-md-4 {
+margin-right: 100px;
+margin-left: 400px;
+margin-top: 100px;
+}
 /*footer all pages*/
 .footerhold {   
   background: none repeat scroll 0 0 transparent;
