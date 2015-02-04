@@ -32,11 +32,11 @@ body {
 
 /*navbar*/
 .navbar {
-  background-color: #000;
-  opacity: 0.5;
-  color: white !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #FFF;
+  opacity: 1;
+  color: black !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
