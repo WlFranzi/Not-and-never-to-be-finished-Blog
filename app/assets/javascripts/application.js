@@ -12,14 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require video
 //= require bigvideo
+//= require coverflow
 //= require_tree .
-
-<script>
-    $(function() {
-		// and kick off
-        $('#coverflow').coverflow();
-    });
-</script>
